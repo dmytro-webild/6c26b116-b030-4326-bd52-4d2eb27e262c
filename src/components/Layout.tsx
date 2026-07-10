@@ -10,38 +10,38 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarFullscreen
-                logo="Smile Dental"
+                logo="Joe's Coffee"
                 navItems={[
-                  { name: "Services", href: "#services" },
-                  { name: "Our Team", href: "#team" },
+                  { name: "Menu", href: "#menu" },
+                  { name: "Find Us", href: "#locations" },
                 ]}
-                ctaButton={{ text: "Book Appointment", href: "#book" }}
+                ctaButton={{ text: "Order Now", href: "#order" }}
               />
       <main className="flex-grow">
         <Outlet />
       </main>
       <FooterBrand
-                brand="Smile Dental"
+                brand="Joe's Coffee"
                 columns={[
                   {
                     items: [
-                      { label: "Services", href: "#services" },
-                      { label: "Checkups", href: "#services" },
-                      { label: "Whitening", href: "#services" },
+                      { label: "Menu", href: "#menu" },
+                      { label: "Hot Drinks", href: "#menu" },
+                      { label: "Pastries", href: "#menu" },
                     ],
                   },
                   {
                     items: [
-                      { label: "Locations", href: "#locations" },
+                      { label: "Find Us", href: "#locations" },
                       { label: "Hours", href: "#locations" },
-                      { label: "Our Team", href: "#team" },
+                      { label: "About", href: "#about" },
                     ],
                   },
                   {
                     items: [
                       { label: "Contact", href: "#contact" },
                       { label: "Careers", href: "#careers" },
-                      { label: "Patient Portal", href: "#portal" },
+                      { label: "Gift Cards", href: "#gift-cards" },
                     ],
                   },
                 ]}
