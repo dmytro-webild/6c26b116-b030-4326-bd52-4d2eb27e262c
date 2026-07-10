@@ -22,10 +22,10 @@ export default function HomePage() {
             description="Experience exceptional dental care in a modern, relaxing environment. From routine cleanings to advanced cosmetic dentistry, we are dedicated to your perfect smile."
             primaryButton={{ text: "Book Appointment", href: "#book" }}
             secondaryButton={{ text: "Our Services", href: "#services" }}
-            videoSrc="https://storage.googleapis.com/webild/default/templates/joes-coffee/hero/hero.mp4"
+            imageSrc="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop"
             floatingCards={[
-              { imageSrc: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop", name: "Whitening" },
-              { imageSrc: "https://images.unsplash.com/photo-1598256989800-fea5ce5146f2?q=80&w=2070&auto=format&fit=crop", name: "Checkups" },
+              { imageSrc: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=2070&auto=format&fit=crop", name: "Whitening" },
+              { imageSrc: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=2070&auto=format&fit=crop", name: "Checkups" },
             ]}
           />
         </div>
