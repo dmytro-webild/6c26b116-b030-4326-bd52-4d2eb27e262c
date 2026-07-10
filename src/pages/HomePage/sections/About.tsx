@@ -12,14 +12,14 @@ export default function AboutSection(): React.JSX.Element {
                 tag="Move your cursor!"
                 title="What are you in the mood for?"
                 media={[
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-1.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-2.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-3.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-4.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-5.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-6.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-7.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-8.webp" },
+                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-1.webp?_wi=2" },
+                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-2.webp?_wi=1" },
+                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-3.webp?_wi=1" },
+                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-4.webp?_wi=2" },
+                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-5.webp?_wi=2" },
+                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-6.webp?_wi=1" },
+                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-7.webp?_wi=1" },
+                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-8.webp?_wi=2" },
                 ]}
                 primaryButton={{ text: "See the Menu", href: "#menu" }}
                 secondaryButton={{ text: "Find Us", href: "#locations" }}
