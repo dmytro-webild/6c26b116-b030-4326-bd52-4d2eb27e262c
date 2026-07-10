@@ -10,38 +10,38 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarFullscreen
-                logo="Joe's Coffee"
+                logo="Smile Dental"
                 navItems={[
-                  { name: "Menu", href: "#menu" },
-                  { name: "Find Us", href: "#locations" },
+                  { name: "Services", href: "#services" },
+                  { name: "Our Team", href: "#team" },
                 ]}
-                ctaButton={{ text: "Order Now", href: "#order" }}
+                ctaButton={{ text: "Book Appointment", href: "#book" }}
               />
       <main className="flex-grow">
         <Outlet />
       </main>
       <FooterBrand
-                brand="Joe's Coffee"
+                brand="Smile Dental"
                 columns={[
                   {
                     items: [
-                      { label: "Menu", href: "#menu" },
-                      { label: "Hot Drinks", href: "#menu" },
-                      { label: "Pastries", href: "#menu" },
+                      { label: "Services", href: "#services" },
+                      { label: "Checkups", href: "#services" },
+                      { label: "Whitening", href: "#services" },
                     ],
                   },
                   {
                     items: [
-                      { label: "Find Us", href: "#locations" },
+                      { label: "Locations", href: "#locations" },
                       { label: "Hours", href: "#locations" },
-                      { label: "About", href: "#about" },
+                      { label: "Our Team", href: "#team" },
                     ],
                   },
                   {
                     items: [
                       { label: "Contact", href: "#contact" },
                       { label: "Careers", href: "#careers" },
-                      { label: "Gift Cards", href: "#gift-cards" },
+                      { label: "Patient Portal", href: "#portal" },
                     ],
                   },
                 ]}
