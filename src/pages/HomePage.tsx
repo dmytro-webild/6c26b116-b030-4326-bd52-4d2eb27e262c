@@ -36,14 +36,14 @@ export default function HomePage() {
             tag="Move your cursor!"
             title="What are you in the mood for?"
             media={[
-              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-1.webp" },
+              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-1.webp?_wi=1" },
               { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-2.webp?_wi=1" },
               { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-3.webp?_wi=1" },
-              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-4.webp" },
-              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-5.webp" },
+              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-4.webp?_wi=1" },
+              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-5.webp?_wi=1" },
               { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-6.webp?_wi=1" },
               { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-7.webp?_wi=1" },
-              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-8.webp" },
+              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-8.webp?_wi=1" },
             ]}
             primaryButton={{ text: "See the Menu", href: "#menu" }}
             secondaryButton={{ text: "Find Us", href: "#locations" }}
@@ -58,18 +58,18 @@ export default function HomePage() {
             description="From handcrafted espresso drinks to freshly baked pastries, every item is made with care."
             categories={["Hot Drinks", "Cold Drinks", "Pastries"]}
             items={[
-              { name: "Espresso", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/espresso.webp" },
-              { name: "Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/latte-menu.webp" },
+              { name: "Espresso", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/espresso.webp?_wi=1" },
+              { name: "Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/latte-menu.webp?_wi=1" },
               { name: "Iced Latte", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-2.webp?_wi=2" },
-              { name: "Cappuccino", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/cappuccino.webp" },
+              { name: "Cappuccino", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/cappuccino.webp?_wi=1" },
               { name: "Iced Americano", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/hero/iced-coffee.webp?_wi=2" },
-              { name: "Mocha", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/mocha.webp" },
+              { name: "Mocha", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/mocha.webp?_wi=1" },
               { name: "Iced Mocha", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-6.webp?_wi=2" },
               { name: "Flat White", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-7.webp?_wi=2" },
-              { name: "Iced Flat White", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/iced-flat-white.webp" },
-              { name: "Chai Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chai-latte.webp" },
+              { name: "Iced Flat White", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/iced-flat-white.webp?_wi=1" },
+              { name: "Chai Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chai-latte.webp?_wi=1" },
               { name: "Croissant", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-3.webp?_wi=2" },
-              { name: "Chocolate Chip Cookie", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chocolate-chip-cookie.webp" },
+              { name: "Chocolate Chip Cookie", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chocolate-chip-cookie.webp?_wi=1" },
             ]}
           />
         </div>
@@ -84,18 +84,18 @@ export default function HomePage() {
               {
                 title: "Private Events",
                 description: "Book our space for birthdays, meetings, or just a good excuse to get together. Great coffee and good vibes included.",
-                imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/private-events.webp",
+                imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/private-events.webp?_wi=1",
               },
               {
                 title: "Catering",
                 description: "Let us handle the coffee and pastries for your next event. We'll set up, pour, and make sure nobody runs on empty.",
-                imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/catering.webp",
+                imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/catering.webp?_wi=1",
               },
             ]}
             bottomItem={{
               title: "Custom Menus",
               description: "Work with our team to build a tailored menu for your event — from espresso bars to pastry platters, we've got you covered.",
-              imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/custom-menus.webp",
+              imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/custom-menus.webp?_wi=1",
               primaryButton: { text: "Get in Touch", href: "#contact" },
             }}
           />

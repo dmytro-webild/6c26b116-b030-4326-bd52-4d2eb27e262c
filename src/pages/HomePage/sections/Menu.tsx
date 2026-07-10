@@ -14,18 +14,18 @@ export default function MenuSection(): React.JSX.Element {
                 description="From handcrafted espresso drinks to freshly baked pastries, every item is made with care."
                 categories={["Hot Drinks", "Cold Drinks", "Pastries"]}
                 items={[
-                  { name: "Espresso", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/espresso.webp" },
-                  { name: "Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/latte-menu.webp" },
-                  { name: "Iced Latte", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-2.webp" },
-                  { name: "Cappuccino", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/cappuccino.webp" },
+                  { name: "Espresso", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/espresso.webp?_wi=2" },
+                  { name: "Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/latte-menu.webp?_wi=2" },
+                  { name: "Iced Latte", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-2.webp?_wi=2" },
+                  { name: "Cappuccino", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/cappuccino.webp?_wi=2" },
                   { name: "Iced Americano", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/hero/iced-coffee.webp" },
-                  { name: "Mocha", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/mocha.webp" },
-                  { name: "Iced Mocha", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-6.webp" },
-                  { name: "Flat White", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-7.webp" },
-                  { name: "Iced Flat White", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/iced-flat-white.webp" },
-                  { name: "Chai Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chai-latte.webp" },
-                  { name: "Croissant", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-3.webp" },
-                  { name: "Chocolate Chip Cookie", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chocolate-chip-cookie.webp" },
+                  { name: "Mocha", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/mocha.webp?_wi=2" },
+                  { name: "Iced Mocha", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-6.webp?_wi=2" },
+                  { name: "Flat White", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-7.webp?_wi=2" },
+                  { name: "Iced Flat White", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/iced-flat-white.webp?_wi=2" },
+                  { name: "Chai Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chai-latte.webp?_wi=2" },
+                  { name: "Croissant", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-3.webp?_wi=2" },
+                  { name: "Chocolate Chip Cookie", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chocolate-chip-cookie.webp?_wi=2" },
                 ]}
               />
             </div>
