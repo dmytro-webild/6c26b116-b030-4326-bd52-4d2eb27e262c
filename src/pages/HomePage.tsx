@@ -18,14 +18,14 @@ export default function HomePage() {
         <div id="hero" data-section="hero">
           <HeroBillboardBrandFloatingCards
             textAnimation="fade-blur"
-            brand="Joe's Coffee"
-            description="Handcrafted espresso drinks and freshly baked pastries in a warm, welcoming atmosphere. From our first roast to your morning cup, every sip tells a story."
-            primaryButton={{ text: "Order Now", href: "#order" }}
-            secondaryButton={{ text: "View Menu", href: "#menu" }}
+            brand="Lumina Dental"
+            description="Experience exceptional dental care in a modern, relaxing environment. From routine cleanings to advanced cosmetic dentistry, we are dedicated to your perfect smile."
+            primaryButton={{ text: "Book Appointment", href: "#book" }}
+            secondaryButton={{ text: "Our Services", href: "#services" }}
             videoSrc="https://storage.googleapis.com/webild/default/templates/joes-coffee/hero/hero.mp4"
             floatingCards={[
-              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/hero/iced-coffee.webp?_wi=1", name: "Americano" },
-              { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/hero/latte.webp", name: "Latte" },
+              { imageSrc: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop", name: "Whitening" },
+              { imageSrc: "https://images.unsplash.com/photo-1598256989800-fea5ce5146f2?q=80&w=2070&auto=format&fit=crop", name: "Checkups" },
             ]}
           />
         </div>
