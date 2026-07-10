@@ -16,18 +16,18 @@ export default function FeaturesSection(): React.JSX.Element {
                   {
                     title: "Private Events",
                     description: "Book our space for birthdays, meetings, or just a good excuse to get together. Great coffee and good vibes included.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/private-events.webp?_wi=2",
+                    imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/private-events.webp?_wi=1",
                   },
                   {
                     title: "Catering",
                     description: "Let us handle the coffee and pastries for your next event. We'll set up, pour, and make sure nobody runs on empty.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/catering.webp?_wi=2",
+                    imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/catering.webp?_wi=1",
                   },
                 ]}
                 bottomItem={{
                   title: "Custom Menus",
                   description: "Work with our team to build a tailored menu for your event — from espresso bars to pastry platters, we've got you covered.",
-                  imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/custom-menus.webp?_wi=2",
+                  imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/custom-menus.webp?_wi=1",
                   primaryButton: { text: "Get in Touch", href: "#contact" },
                 }}
               />

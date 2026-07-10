@@ -8,14 +8,17 @@ export default function HeroSection(): React.JSX.Element {
   return (
     <div id="hero" data-section="hero">
               <HeroBillboardBrandFloatingCards
-        textAnimation="fade-blur"
-        brand="Smile Dental"
-        description="Expert dental care in a comfortable, modern environment. From routine checkups to advanced cosmetic procedures, we're here to keep your smile bright and healthy."
-        primaryButton={{"text":"Book Appointment","href":"#book"}}
-        secondaryButton={{"text":"Our Services","href":"#services"}}
-        videoSrc="https://storage.googleapis.com/webild/default/templates/dental-clinic/hero/hero.mp4"
-        floatingCards={[{"imageSrc":"https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop","name":"Whitening"},{"imageSrc":"https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2070&auto=format&fit=crop","name":"Checkups"}]}
-      />
+                textAnimation="fade-blur"
+                brand="Lumina Dental"
+                description="Experience exceptional dental care in a modern, relaxing environment. From routine cleanings to advanced cosmetic dentistry, we are dedicated to your perfect smile."
+                primaryButton={{ text: "Book Appointment", href: "#book" }}
+                secondaryButton={{ text: "Our Services", href: "#services" }}
+                imageSrc="http://img.b2bpic.net/free-photo/business-man-cheerful-walking-concept_53876-42819.jpg"
+                floatingCards={[
+                  { imageSrc: "http://img.b2bpic.net/free-photo/elegant-business-woman-front-glass-building_23-2147704436.jpg", name: "Whitening" },
+                  { imageSrc: "http://img.b2bpic.net/free-photo/woman-working-with-laptop-outdoors_1098-1738.jpg", name: "Checkups" },
+                ]}
+              />
             </div>
   );
 }
